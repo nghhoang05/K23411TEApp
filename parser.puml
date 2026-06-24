@@ -1,0 +1,178 @@
+@startuml
+class com.example.models.Employee {
+- String id
+- String name
+- String phone
+- String birthPlace
++ String getBirthplace()
++ void setBirthplace(String)
++ String getId()
++ void setId(String)
++ String getName()
++ void setName(String)
++ String getPhone()
++ void setPhone(String)
++ String toString()
+}
+
+
+class com.example.models.Customer {
+- String customerId
+- String customerName
+- String phone
+- String email
+- Date birthday
+- String address
++ String getCustomerId()
++ void setCustomerId(String)
++ String getCustomerName()
++ void setCustomerName(String)
++ String getPhone()
++ void setPhone(String)
++ String getEmail()
++ void setEmail(String)
++ Date getBirthday()
++ void setBirthday(Date)
++ String getAddress()
++ void setAddress(String)
++ String toString()
+}
+
+
+class com.example.models.Order {
+- String orderId
+- String customerId
+- String employeeId
+- Date orderDate
++ String getOrderId()
++ void setOrderId(String)
++ String getCustomerId()
++ void setCustomerId(String)
++ String getEmployeeId()
++ void setEmployeeId(String)
++ Date getOrderDate()
++ void setOrderDate(Date)
++ String toString()
+}
+
+
+class com.example.models.OrderDetail {
+- String orderDetailId
+- String orderId
+- int quantity
+- double price
+- double coupon
+- double VAT
++ String getOrderDetailId()
++ void setOrderDetailId(String)
++ String getOrderId()
++ void setOrderId(String)
++ int getQuantity()
++ void setQuantity(int)
++ double getPrice()
++ void setPrice(double)
++ double getCoupon()
++ void setCoupon(double)
++ double getVAT()
++ void setVAT(double)
++ String toString()
+}
+
+
+class com.example.models.Product {
+- String productId
+- String productName
+- double price
+- int quantity
+- double coupon
+- double VAT
+- String categoryId
++ String getProductId()
++ void setProductId(String)
++ String getProductName()
++ void setProductName(String)
++ double getPrice()
++ void setPrice(double)
++ int getQuantity()
++ void setQuantity(int)
++ double getCoupon()
++ void setCoupon(double)
++ double getVAT()
++ void setVAT(double)
++ String getCategoryId()
++ void setCategoryId(String)
++ String toString()
+}
+
+
+class com.example.models.ListUserAccount {
++ {static} ArrayList<UserAccount> getUserAccounts()
++ {static} UserAccount Login(String,String)
+}
+
+class com.example.models.Department {
+- String departmentId
+- String departmentName
+- ArrayList<Employee> listOfEmployee
++ void addEmployee(Employee)
++ void addListEmployee(ArrayList<Employee>)
++ ArrayList<Employee> getListOfEmployee()
++ String getDepartmentId()
++ void setDepartmentId(String)
++ String getDepartmentName()
++ void setDepartmentName(String)
++ String toString()
+}
+
+
+class com.example.models.UserAccount {
+- String username
+- String password
+- String role
+- String displayName
+- boolean saved
++ String getUsername()
++ void setUsername(String)
++ String getPassword()
++ void setPassword(String)
++ String getRole()
++ void setRole(String)
++ String getDisplayName()
++ void setDisplayName(String)
++ boolean isSaved()
++ void setSaved(boolean)
++ String toString()
+}
+
+
+class com.example.models.Category {
+- String categoryId
+- String categoryName
+- String description
++ String getCategoryId()
++ void setCategoryId(String)
++ String getCategoryName()
++ void setCategoryName(String)
++ String getDescription()
++ void setDescription(String)
++ String toString()
+}
+
+
+class com.example.models.DataWareHouse {
++ {static} ArrayList<Category> getCategories()
++ {static} ArrayList<Product> getProducts()
++ {static} ArrayList<Employee> getEmployees()
++ {static} ArrayList<Customer> getCustomers()
++ {static} ArrayList<Order> getOrders()
+}
+
+
+
+java.io.Serializable <|.. com.example.models.Employee
+java.io.Serializable <|.. com.example.models.Customer
+java.io.Serializable <|.. com.example.models.Order
+java.io.Serializable <|.. com.example.models.OrderDetail
+java.io.Serializable <|.. com.example.models.Product
+java.io.Serializable <|.. com.example.models.UserAccount
+@enduml

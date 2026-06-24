@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "622469709083",
+    "firebase_url": "https://k23411te-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "k23411te",
+    "storage_bucket": "k23411te.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622469709083:android:057cf62d7d9ebeb8c5a7be",
+        "android_client_info": {
+          "package_name": "com.example.k23411teapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0-oBaCt9PekvSE72D74Zwf1-U02-VyV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

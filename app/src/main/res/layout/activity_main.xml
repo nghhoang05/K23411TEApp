@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to K23411TE"
+                android:textColor="#ED0F0F"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openOrderManagement"
+                android:text="Order Management" />
+
+            <Button
+                android:id="@+id/btnWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openWeather"
+                android:text="Weather Forecast" />
+            <Button
+                android:id="@+id/btnMajorSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openMajorSearch"
+                android:text="🎓 Tìm Kiếm Ngành Học UEL" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="exit_app"
+                android:text="Close" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="say_hello"
+                android:text="Click me" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_university" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hey! K23411TE" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show_my_major"
+                android:text="@string/str_your_major" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openCalculatorApp"
+                android:text="@string/str_open_calculator_app" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openOrderManagement"
+                android:text="@string/str_order_management" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openCategoryManagement"
+                android:text="@string/str_category_management" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openMyContactManagement"
+                android:text="@string/str_my_contact_management" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openSmsSpyware"
+                android:text="@string/str_sms_spyware" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openMultiThreadActivity"
+                android:text="@string/str_multi_thread" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openMultiThreadObjectActivity"
+                android:text="@string/str_multi_thread_object_demo" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openFontAndMusic"
+                android:text="@string/str_font_music" />
+
+            <Button
+                android:id="@+id/btnFirebaseContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openFirebaseContact"
+                android:text="🔥 Firebase Contacts"
+                android:backgroundTint="#FF7043"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

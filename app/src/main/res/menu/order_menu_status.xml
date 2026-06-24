@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/str_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_order_status_all"
+        android:title="@string/str_order_status_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_completed"
+        android:title="@string/str_order_status_completed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_not_payment"
+        android:title="@string/str_order_satus_not_payment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_on_logistic"
+        android:title="@string/str_order_status_on_logistic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_order_status_complaint"
+        android:title="@string/str_order_status_complaint"
+        app:showAsAction="never" />
+</menu>

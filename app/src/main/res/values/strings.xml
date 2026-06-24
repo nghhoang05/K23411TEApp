@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">K23411TEApp</string>
+    <string name="str_university">University of Economics and Law</string>
+    <string name="str_your_major">Show your major</string>
+    <string name="str_my_major">Data Science!!!!</string>
+    <string name="str_login_system">LOGIN SYSTEM</string>
+    <string name="str_username">User Name:</string>
+    <string name="str_hint_username">Enter your user name here</string>
+    <string name="str_password">Password</string>
+    <string name="str_hint_password">Enter your password here</string>
+    <string name="str_login">Login</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_login_successfull">LOGIN SUCCESSFUL!!!</string>
+    <string name="str_login_failed">LOGIN FAILED!!!</string>
+    <string name="str_mc">MC</string>
+    <string name="str_mr">MR</string>
+    <string name="str_mplus">M+</string>
+    <string name="str_mminus">M-</string>
+    <string name="str_ms">MS</string>
+    <string name="str_m">M</string>
+    <string name="str_open_calculator_app">Open Calculator App</string>
+
+    <!-- Calculator Buttons -->
+    <string name="btn_percent">%</string>
+    <string name="btn_ce">CE</string>
+    <string name="btn_c">C</string>
+    <string name="btn_del">⌫</string>
+    <string name="btn_inv">1/x</string>
+    <string name="btn_sqr">x²</string>
+    <string name="btn_sqrt">√x</string>
+    <string name="btn_div">÷</string>
+    <string name="btn_mul">×</string>
+    <string name="btn_sub">−</string>
+    <string name="btn_add">+</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_sign">±</string>
+    <string name="btn_dot">.</string>
+    <string name="str_save_login_infor">Save Login Information</string>
+    <string name="str_role">Login Role</string>
+    <string name="str_role_administrator">Administrator</string>
+    <string name="str_role_employee">Employee</string>
+    <string name="str_confirm_exit_title">Confirm Exit</string>
+    <string name="str_confirm_exit_message">Are you sure you want to exit?</string>
+    <string name="str_confirm_exit_yes">YES</string>
+    <string name="str_confirm_exit_no">NO</string>
+    <string name="str_confirm_exit">Are you sure you want to exit?</string>
+    <string name="str_id">Id:</string>
+    <string name="str_name">Name:</string>
+    <string name="str_phone">Phone:</string>
+    <string name="str_save">Save</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_filter">Filter</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_default_from_date">01/01/2024</string>
+    <string name="str_default_to_date">31/12/2024</string>
+    <string name="str_id_required">ID is required</string>
+    <string name="str_updated">Information updated</string>
+    <string name="str_added">New employee added</string>
+    <string name="str_select_to_delete">Please select an employee to delete</string>
+    <string name="str_confirm_delete_title">Confirm Delete</string>
+    <string name="str_confirm_delete_message">Are you sure you want to delete this employee?</string>
+    <string name="str_deleted">Deleted successfully</string>
+    <string name="str_department">Department:</string>
+    <string name="str_employee">Employee List</string>
+    <string name="str_all">All Departments</string>
+    <string name="str_dept_1">Department 1</string>
+    <string name="str_dept_2">Department 2</string>
+    <string name="str_dept_3">Phòng nhân sự</string>
+    <string name="str_birthplace">Birth Place:</string>
+    <string name="str_order_management">Order Management</string>
+    <string name="str_from_date">From Date</string>
+    <string name="str_to_date">To Date</string>
+    <string name="str_order_status_all">All</string>
+    <string name="str_order_status_completed">Completed</string>
+    <string name="str_order_satus_not_payment">Not Payment</string>
+    <string name="str_order_status_on_logistic">On Logistic</string>
+    <string name="str_order_status_complaint">Complaint</string>
+    <string name="str_order_id">Order ID: %s</string>
+    <string name="str_customer_id">Customer ID: %s</string>
+    <string name="str_employee_id">Employee ID: %s</string>
+    <string name="str_date">Date: %s</string>
+    <string name="str_status">Status: %s</string>
+    <string name="str_total">Total: %s</string>
+    <string name="str_order_details">Order Details</string>
+    <string name="str_order_items">Order Items:</string>
+    <string name="str_order_item_format">- %1$s (Qty: %2$d) Price: %3$.0f, Total: %4$.0f</string>
+    <string-array name="arr_province">
+        <item>Thành phố Hà Nội</item>
+        <item>Thành phố Hồ Chí Minh</item>
+        <item>Thành phố Hải Phòng</item>
+        <item>Thành phố Đà Nẵng</item>
+        <item>Thành phố Cần Thơ</item>
+        <item>Thành phố Huế</item>
+        <item>Hà Giang</item>
+        <item>Tuyên Quang</item>
+        <item>Lào Cai</item>
+        <item>Yên Bái</item>
+        <item>Cao Bằng</item>
+        <item>Bắc Kạn</item>
+        <item>Thái Nguyên</item>
+        <item>Lạng Sơn</item>
+        <item>Bắc Giang</item>
+        <item>Phú Thọ</item>
+        <item>Vĩnh Phúc</item>
+        <item>Hòa Bình</item>
+        <item>Sơn La</item>
+        <item>Điện Biên</item>
+        <item>Lai Châu</item>
+        <item>Quảng Ninh</item>
+        <item>Bắc Ninh</item>
+        <item>Hải Dương</item>
+        <item>Hưng Yên</item>
+        <item>Hà Nam</item>
+        <item>Nam Định</item>
+        <item>Ninh Bình</item>
+        <item>Thanh Hóa</item>
+        <item>Nghệ An</item>
+        <item>Hà Tĩnh</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Trị</item>
+        <item>Thừa Thiên Huế</item>
+    </string-array>
+    <string name="str_order_id_prefix">Order ID: </string>
+    <string name="str_order_date_prefix">Date: </string>
+    <string name="str_order_total_prefix">Total: </string>
+    <string name="str_order_id_label">Order #%s</string>
+    <string name="str_order_date_label">Date: %s</string>
+    <string name="str_order_total_label">Total: %s</string>
+    <string name="str_search">Search</string>
+    <string name="str_category_management">Category Management</string>
+    <string name="str_new_category">New Category</string>
+    <string name="str_category_statistic">Category Statistic</string>
+    <string name="str_categoryId">Category ID:</string>
+    <string name="str_catogoryName">Category Name:</string>
+    <string name="str_category_description">Category Description:</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_my_contact_management">My Contact Management</string>
+    <string name="str_phone_incoming">Phone Incoming:</string>
+    <string name="str_date_delivery">Date Delivery:</string>
+    <string name="str_message_body">Message Body:</string>
+    <string name="str_sms_spyware">SMS SPYWARE</string>
+    <string name="str_number_button">Number Of Button</string>
+    <string name="str_create_button">CREATE BUTTON</string>
+    <string name="str_multi_thread">MULTI THREAD DEMO</string>
+    <string name="str_number_of_product">Number Product</string>
+    <string name="str_download_product">DOWNLOAD PRODUCT</string>
+    <string name="str_multi_thread_object_demo">MULTI THREAD OBJECT DEMO</string>
+    <string name="str_play_audio1">PLAY AUDIO 1</string>
+    <string name="str_play_audio2">PLAY AUDIO 2</string>
+    <string name="str_uel">University of Economics and Law</string>
+    <string name="str_font_music">FONT AND MUSIC</string>
+</resources>
