@@ -146,6 +146,16 @@
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="8dp"/>
 
+            <Button
+                android:id="@+id/btnShopAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openShopAdmin"
+                android:text="🏪 Shop &amp; Admin Dashboard"
+                android:backgroundTint="#1A1A2E"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
         </LinearLayout>
     </ScrollView>
 

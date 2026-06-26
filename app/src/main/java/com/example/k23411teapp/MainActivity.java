@@ -113,4 +113,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, FirebaseContactActivity.class);
         startActivity(intent);
     }
+
+    public void openShopAdmin(View view) {
+        Intent intent = new Intent(MainActivity.this, RoleSelectorActivity.class);
+        startActivity(intent);
+    }
 }

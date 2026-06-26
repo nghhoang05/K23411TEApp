@@ -42,6 +42,9 @@ dependencies {
     // Firebase BOM - quản lý version tự động cho tất cả Firebase SDK
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.database)
+    implementation(libs.glide)
+    annotationProcessor(libs.glide.compiler)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
